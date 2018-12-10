@@ -2,35 +2,38 @@
 <html lang="en">
     <head>
       <meta charset="UTF-8" />
-      <title>Andrew Freeman's Resume</title>
-      <link href= "css/style.css" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Roboto:400,700" rel="stylesheet">
+      <title>Resume</title>
+      <meta name="viewport" content="width=device-width; intial=scale-1;" />
+      <link href= "css/style.css" media="screen" rel="stylesheet" />
+      <link href="css/mobile.css" media="screen" rel="stylesheet" />
     </head>
   <body>
     <div id="wrapper">
       <header>
+        <nav id="main_nav">
+          <ul>
+            <li><a href="homepage.html">Homepage</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="writingsamples.html">Writing Samples</a></li>
+          </ul>
+        </nav>
         <h1>Andrew J. Freeman</h1>
-        <h2>Contact Information</h2>
+        <h2>Resume</h2>
         <p>4937 S Peninsula Dr. Ponce Inlet, FL 32127</p>
         <p>(305)-588-0204</p>
         <p>ajfreeman29@gmail.com</p>
-        <article>
-          <img src="images/andrewjfreeman.jpg" alt="Photo of Andrew Freeman" />
-        </article>
-        <nav id="main_nav">
+        <nav id="resume_nav">
           <ul>
             <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#service">Service</a></li>
-            <li><a href="#honors">Honors</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#profiles">Profiles</a></li>
+            <li><a href="#social">Social</a></li>
           </ul>
         </nav>
       </header>
-      <main>
-        <div class="grid">
-        <div id=" topleft">
+      <main id="resume">
+        <div id="left">
           <section id="education">
             <h2>Education</h2>
             <article>
@@ -66,8 +69,17 @@
               <p>Fall 2014</p>
             </article>
           </section>
+          <section id="social">
+            <h2>Social</h2>
+            <nav>
+              <ul>
+                <li><a href="http://www.facebook.com/profile.php?id=100001468604835">FaceBook </a></li>
+                <li><a href="https://www.linkedin.com/in/andrew-freeman-65b72aaa/">LinkedIn </a></li>
+              </ul>
+            </nav>
+          </section>
         </div>
-        <div id="topright">
+        <div id="right">
           <section id="experience">
             <h2>Experience</h2>
             <article>
@@ -105,56 +117,6 @@
             </article>
           </section>
         </div>
-        <div id="bottomleft">
-          <section id="honors">
-            <h2>Honors</h2>
-            <article>
-              <p><strong>Gamma Sigma Alpha Honor Society</strong></p>
-              <p>Spring 2017 - Present</p>
-            </article>
-            <article>
-              <p><strong>Stephen Sotloff Memorial Scholorship Recipient</strong></p>
-              <p>November 2016</p>
-            </article>
-            <article>
-              <p><strong>The National Society of Collegiate Scholars</strong></p>
-              <p>Fall 2015 - Present</p>
-            </article>
-            <article>
-              <p><strong>Dean's List and Provost Honor Roll</strong></p>
-              <p>Spring 2016 - Spring 2018</p>
-            </article>
-          </section>
-        </div>
-        <div id="bottomright">
-          <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Adobe Creative Cloud</li>
-              <li>Microsoft Office</li>
-              <li>Conversational Spanish</li>
-            </ul>
-          </section>
-          <section id="interests">
-            <h2>Interests</h2>
-            <ul>
-              <li>Sports</li>
-              <li>Interests</li>
-              <li>Science Fiction</li>
-            </ul>
-          </section>
-        </div>
-        <section id="profiles">
-          <h2>Profiles</h2>
-          <nav>
-            <ul>
-              <li><a href="http://www.facebook.com/profile.php?id=100001468604835">FaceBook </a></li>
-              <li><a href="https://www.linkedin.com/in/andrew-freeman-65b72aaa/">LinkedIn </a></li>
-            </ul>
-          </nav>
-        </section>
       </main>
     </div>
   </body>

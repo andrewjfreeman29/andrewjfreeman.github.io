@@ -1,0 +1,78 @@
+/* Fortmatted for Iphone 6, 7 and 8 */
+@media (max-width: 414px) {
+
+main {
+  display: block;
+  }
+body {
+  background-image: none;
+  font-size: 20px;
+  }
+
+img {
+  max-width: 315px;
+}
+
+#wrapper {
+    border: 0;
+    margin: 0;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    padding: 0;
+  }
+
+
+  header span {
+    display: inline;
+  }
+
+  h4 span {
+    display: inline;
+  }
+
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  nav a {
+    display: block;
+    max-width: 100%;
+  }
+
+  #interests {
+    padding-bottom: 5px;
+  }
+
+#packages {
+  display: block;
+}
+
+
+#packages #topright {
+  display: none;
+}
+
+#packages #midright {
+  display: none;
+}
+
+#packages #botright {
+  display: none;
+}
+
+#social li {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+}
