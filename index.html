@@ -2,17 +2,83 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My first webpage</title>
+    <title>Andrew Freeman's Homepage</title>
+    <meta name="viewport" content="width=device-width; intial=scale-1;" />
+    <link href="css/style.css" media="screen" rel="stylesheet" />
+    <link href="css/mobile.css" media="screen" rel="stylesheet" />
   </head>
   <body>
-    <h1>Andrew Freeman</h1>
-    <p>I am excited for my first webpage</p>
-    <h2>Places I want to live</h2>
-    <ul>
-      <li>Arizona</li>
-      <li>California</li>
-      <li>Oregon</li>
-    </ul>
-    <img src="octocat.png" alt="octocat" />
+    <div id="wrapper">
+      <header>
+        <nav id="main_nav">
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="writingsamples.html">Writing Samples</a></li>
+          </ul>
+        </nav>
+        <h1>Andrew J. Freeman</h1>
+        <h2><span>Mobile </span>Homepage</h2>
+        <p>2659 Pioneer Trail New Smyrna Beach, FL 32168</p>
+        <p>(305)-588-0204</p>
+        <p>ajfreeman29@gmail.com</p>
+      </header>
+      <main id="homepage">
+        <section id="left">
+          <!-- <h2>Photo</h2> -->
+          <img src="images/andrew.jpg" alt="Photo of Andrew Freeman" />
+        </section>
+        <section id="right">
+          <h2>Bio</h2>
+          <p> Andrew Freeman was born in Miami, FL but grew up in Point Pleasant, NJ. Andrew chose to attend the University of Miami as to be close to a big city and also due to the prominent Division I sports program. Andrew graduated in December of 2018 and is excited for the future. After a brief stint with Amazon in Business Operations he took a job with PetSmart managing inventory. While there, Andrew has continued to take online classes and continues to learn different coding languages. His dream job is to work in basketball, while finding a way to express his prowess for writing, gaming, and coding.</p>
+        </section>
+        <div id="bottomleft">
+          <section id="honors">
+            <h2>Honors</h2>
+            <article>
+              <p><strong>Gamma Sigma Alpha Honor Society</strong></p>
+              <p>Spring 2017 - Present</p>
+            </article>
+            <article>
+              <p><strong>Stephen Sotloff Memorial Scholorship Recipient</strong></p>
+              <p>November 2016</p>
+            </article>
+            <article>
+              <p><strong>The National Society of Collegiate Scholars</strong></p>
+              <p>Fall 2015 - Present</p>
+            </article>
+            <article>
+              <p><strong>Dean's List and Provost Honor Roll</strong></p>
+              <p>Spring 2016 - Spring 2018</p>
+            </article>
+          </section>
+        </div>
+        <div id="bottomright">
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <div id="first">
+                <li>HTML/CSS/Python/C#</li>
+              </div>
+              <li>Adobe Premiere, InDesign, Illustrator, Photoshop</li>
+              <li>Microsoft Office</li>
+              <li>Conversational Spanish</li>
+            </ul>
+          </section>
+          <section id="interests">
+            <h2>Interests</h2>
+            <ul>
+              <div id="second">
+                <li>Sports</li>
+              </div>
+              <li>Reading</li>
+              <li>Gaming</li>
+              <li>Science Fiction</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
